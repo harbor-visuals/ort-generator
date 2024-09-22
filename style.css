@@ -46,6 +46,10 @@ main {
     color: #c00;
 }
 
+.weatherTitle {
+    font-weight: bold;
+}
+
 h3 {
     color: #ad0101;
 }
@@ -98,6 +102,12 @@ iframe {
     width: 100%;
     height: 100%;
 }
+
+.weather > img {
+    height: 100px;
+    width: auto;
+}
+
 
 /* Responsive styles */
 @media (max-width: 600px) {
